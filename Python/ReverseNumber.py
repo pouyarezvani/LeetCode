@@ -1,19 +1,3 @@
-# A list of my python challenges.
-
-def runningSum(nums):
-    sum = 0
-    new_arr = []
-    for i in nums:
-        sum += i
-        new_arr.append(sum)
-
-    return new_arr
-
-
-arr = [1, 2, 3, 4]
-# print(runningSum(arr))
-
-
 def reverseNum(num):
     num_list = [int(d) for d in str(num)]
     reverse_list = num_list[::-1]
